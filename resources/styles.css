@@ -102,6 +102,11 @@ nav ul {
     color: #000;
     padding: 10px;
     flex: 1 2;
+    transition: color 0.2s linear;
+   }
+
+   nav a:hover {
+       color: #dcdcdc;
    }
 
 .logo {
@@ -163,6 +168,14 @@ button {
     display: inline-block;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s linear,
+    letter-spacing 0.3s ease-in;
+}
+
+button:hover {
+    background-color: gray;
+    letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .practice .container {
@@ -234,6 +247,11 @@ span {
 
 .rightbox .box a {
     color: #73a0b9;
+    transition: color 0.2s linear;
+}
+
+.box a:hover {
+    color: #376580;
 }
 
 .content {
