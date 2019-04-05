@@ -200,7 +200,7 @@ button:hover {
 
 .leftbox {
     padding: 32px 12px 0px 0px;
-    width: 60%;
+    min-width: 60%;
 }
 
 .leftbox img {
@@ -231,7 +231,7 @@ span {
     border-left: 1px solid #DCDCDC;
     align-items: center;
     flex-direction: column;
-    width: 40%;
+    min-width: 40%;
     height: 100%;
     top: 12px;
     left: 12px;
@@ -239,7 +239,7 @@ span {
 
 .rightbox .box {
     position: relative;
-    width: 100%;
+    min-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -364,6 +364,10 @@ html {
     flex-direction: column;
 }
 
+.start-learning {
+    display: none;
+}
+
 #desktop {
     display: none;
 }
@@ -410,7 +414,7 @@ header {
     padding: 0;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    min-width: 100%;
     height: 550px;
     align-items: center;
     align-content: center;
@@ -424,7 +428,7 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
-    width: 100%;
+    min-width: 100%;
     height: 550px;
     background-color: #dcdcdc;
 
@@ -432,6 +436,7 @@ header {
 
 .mobile-banner img {
     width: 100%;
+    height: auto;
     overflow: hidden;
 }
 
@@ -462,8 +467,8 @@ button {
 .mobile-practice {
     position: relative;
     top: 64px;
-    padding: 32px 16px;
-    height: 950px;
+    height: 1000px;
+    width: 100%;
     border-bottom: #dcdcdc solid 1px;
 }
 
@@ -484,34 +489,42 @@ button {
 }
 
 .mobile-practice .box {
-    height: 300px;
+    min-width: 100%;
+    padding: 32px;
 }
 
               /*MOBILE START LEARNING SECTION*/
 
-.start-learning img {
-display: none;
-}
 
-.start-learning p {
-    display: none;
-}
-
-.start-learning .box {
-    width: 90%;
-    height: 70px;
-    background-color: #dcdcdc;
-    margin: 8px;
-}
-
-.start-learning .container {
-    padding: 32px 0px;
+.mobile-learning {
     position: relative;
-    background-color: #fff;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.mobile-learning .container {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
     border-bottom: #dcdcdc 1px solid;
+    border-top:#dcdcdc 1px solid;
+    background-color: #fff;
+}
+
+.mobile-learning .box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+    margin: 10px;
+    padding: 25px;
+    background-color: #dcdcdc;
 }
 
               /*MOBILE THESIS SECTION*/
