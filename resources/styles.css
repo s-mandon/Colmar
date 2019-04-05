@@ -338,14 +338,19 @@ video {
     width: 100%;
 }
 
-.mobile-banner {
+#mobile {
     display: none;
 }
 
 @media screen and (max-width: 1000px) {
     
     html {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    #mobile {
+        display: flex;
+        flex-direction: column;
     }
 
     body {
@@ -362,7 +367,7 @@ video {
     }
 
     h3 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .container {
@@ -381,6 +386,8 @@ video {
     header {
         height: 64px;
     }
+
+    
 
     .mobile-banner {
         margin: 0;
@@ -424,11 +431,37 @@ video {
         padding: 0px 16px;
     }
 
-
-
-
+.practice {
+    display: none;
 }
 
+#lecture {
+    background-color: #fff;
+}
 
+.mobile-practice {
+    padding: 16px;
+    height: 1000px;
+}
 
+.mobile-practice h3 {
+    padding: 16px 0px 0px 16px;
+}
 
+.mobile-practice p {
+    padding: 16px 0px 16px 16px;
+}
+
+.mobile-practice a {
+    padding: 16px 0px 0px 16px;
+}
+
+.mobile-practice img {
+    width: 100%;
+}
+
+.mobile-practice .box {
+    height: 300px;
+   
+}
+}
