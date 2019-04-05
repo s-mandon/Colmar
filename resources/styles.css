@@ -390,12 +390,14 @@ video {
     
 
     .mobile-banner {
+        position: relative;
+        top: 64px;
         margin: 0;
         padding: 0;
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: auto;
+        height: 550px;
         align-items: center;
         align-content: center;
         justify-content: center;
@@ -409,6 +411,7 @@ video {
         margin: 0;
         padding: 0;
         width: 100%;
+        height: 550px;
         background-color: #dcdcdc;
 
     }
@@ -421,6 +424,7 @@ video {
     button {
         font-size: 20px;
         width: 90%;
+        margin: 35px 0px 0px 0px;
     }
 
     .mobile-banner h1 {
@@ -440,8 +444,11 @@ video {
 }
 
 .mobile-practice {
-    padding: 16px;
-    height: 1000px;
+    position: relative;
+    top: 64px;
+    padding: 32px 16px;
+    height: 950px;
+    border-bottom: #dcdcdc solid 1px;
 }
 
 .mobile-practice h3 {
@@ -462,6 +469,28 @@ video {
 
 .mobile-practice .box {
     height: 300px;
-   
+}
+
+.start-learning img {
+display: none;
+}
+
+.start-learning p {
+    display: none;
+}
+.start-learning .box {
+    width: 90%;
+    height: 70px;
+    background-color: #dcdcdc;
+    margin: 8px;
+}
+
+.start-learning .container {
+    padding: 32px 0px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 }
