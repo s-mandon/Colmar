@@ -297,13 +297,27 @@ font-size: 16px;
     padding: 12px 0px;
 }
 
-.thesis {
-    position: relative;
-    top: 200px;
+.thesis .container {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
 }
 
+.thesis {
+    position: relative;
+    top: 64px;
+    display: block;
+    justify-content: space-between;
+    height: 632px;
+}
+
+#now-then {
+    background-color: #dcdcdc;
+}
+
+
 video {
-    width: 500px;
+    width: 100%;
 }
 
 .mobile {
