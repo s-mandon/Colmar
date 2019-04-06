@@ -371,6 +371,7 @@ font-size: 16px;
 }
 
 .thesis h1 {
+    color: #423229;
     padding: 32px 0px 0px 0px;
     text-align: center;
 }
@@ -380,7 +381,7 @@ font-size: 16px;
 }
 
 .thesis p {
-    padding: 0px 0px;
+    padding: 10px 0px;
     font-size: 16px;
     line-height: 20px;
 }
@@ -490,8 +491,13 @@ h3 {
     justify-content: space-evenly;
 }
 
+.mobile-nav a {
+    display: flex;
+}
+
 .mobile-nav img {
-    width: 60px;
+    width: 65px;
+    height: 45px;
 }
 
 header {
@@ -587,7 +593,7 @@ button {
     min-width: 100%;
     min-height: 650px;
     align-items: center;
-    background-color: #d7cec7;
+    background-color: #f4f4f4;
 }
 
 .mobile-learning h1 {
@@ -595,7 +601,7 @@ button {
 }
 
 .mobile-learning a {
-    color: #d7cec7;
+    color: #f4f4f4;
     font-size: 26px;
     font-weight: 400;
 }
@@ -607,7 +613,7 @@ button {
     min-height: 650px;
     padding: 0px 10px;
     min-width: 100%;
-    background-color: #d7cec7;
+    background-color: #f4f4f4;
 }
 
 .mobile-learning .box {
@@ -641,6 +647,7 @@ button {
 }
 
 .mobile-thesis h1 {
+    color:#423229;
     padding: 32px 16px;
 }
 
