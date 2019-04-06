@@ -401,7 +401,7 @@ video {
     width: 100%;
 }
 
-#mobile, .mobile-nav {
+#mobile, .mobile-nav, .mobile-learning {
     display: none;
 }
 
