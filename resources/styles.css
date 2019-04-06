@@ -439,10 +439,15 @@ footer a {
  display: inline; 
  text-decoration: none;
  padding: 0px 5px;
+ transition: color 0.2s linear;
 }
 
 .terms {
     padding: 16px 24px 0px 0px;
+}
+
+footer a:hover {
+    color: silver;
 }
 
 #mobile, .mobile-nav, .mobile-learning {
