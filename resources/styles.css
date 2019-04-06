@@ -183,7 +183,7 @@ button {
     background-color: #76323f;
     text-transform: uppercase;
     border: none;
-    color: #d7cec7;
+    color: #f4f4f4;
     margin: 50px 0px;
     padding: 15px 15px;
     width: 100%;
@@ -539,6 +539,7 @@ button {
     font-size: 20px;
     width: 90%;
     margin: 35px 0px;
+    color: #fff;
 }
 
 .mobile-banner h1 {
@@ -598,7 +599,7 @@ button {
     min-width: 100%;
     min-height: 650px;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: #d7cec7;
 }
 
 .mobile-learning h1 {
@@ -618,7 +619,7 @@ button {
     min-height: 650px;
     padding: 0px 10px;
     min-width: 100%;
-    background-color: #f4f4f4;
+    background-color: #d7cec7;
 }
 
 .mobile-learning .box {
@@ -631,6 +632,7 @@ button {
 
 #campus, #orientation {
     border-bottom: #e9e7e7 solid 1px;
+    background-color: #f4f4f4;
 }
 
               /*MOBILE THESIS SECTION*/
@@ -640,6 +642,7 @@ button {
     flex-direction: column;
     min-width: 100%;
     min-height: 350px;
+    background-color: #f4f4f4;
 }
 
 .mobile-thesis {
@@ -649,6 +652,7 @@ button {
     min-height: 350px;
     min-width: 100%;
     text-align: center;
+    background-color: #f4f4f4;
 }
 
 .mobile-thesis h1 {
