@@ -117,20 +117,26 @@ nav a:hover {
     float: left;
 }
 
+.wrapper {
+    position: relative;
+    padding-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
               /*DESKTOP BANNER*/
 
 .banner .container {
     background-color: #dcdcdc;
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: 550px;
 }
 
 .banner {
     position: relative;
     align-items: center;
-    top: 64px;
-    height: 500px;
+    height: 550px;
     background-color: #dcdcdc;
     margin: 0 auto;
 }
@@ -192,7 +198,6 @@ button:hover {
 
 .practice {
     position: relative;
-    top: 64px;
     display: block;
     justify-content: space-between;
     height: 632px;
@@ -293,7 +298,6 @@ span {
 
 .start-learning {
     position: relative;
-    top: 64px;
     background-color: #e6e6e6;
     display: flex;
     text-align: left;
@@ -331,7 +335,6 @@ font-size: 16px;
 
 .thesis {
     position: relative;
-    top: 64px;
     display: block;
     justify-content: space-between;
     height: 632px;
@@ -409,13 +412,12 @@ header {
 
 .mobile-banner {
     position: relative;
-    top: 64px;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     min-width: 100%;
-    height: 550px;
+    min-height: 550px;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -429,7 +431,7 @@ header {
     margin: 0;
     padding: 0;
     min-width: 100%;
-    height: 550px;
+    min-height: 550px;
     background-color: #dcdcdc;
 
 }
@@ -466,7 +468,6 @@ button {
 
 .mobile-practice {
     position: relative;
-    top: 64px;
     height: 1000px;
     width: 100%;
     border-bottom: #dcdcdc solid 1px;
@@ -498,22 +499,27 @@ button {
 
 .mobile-learning {
     position: relative;
+    margin: 0;
+    padding: 0;
     display: flex;
-    height: 600px;
-    width: 100%;
     flex-direction: column;
+    width: 100%;
+    min-height: 550px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #dcdcdc;
 }
 
 .mobile-learning .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    justify-items: center;
+    margin: 0;
+    padding: 0;
     width: 100%;
-    border-bottom: #dcdcdc 1px solid;
-    border-top:#dcdcdc 1px solid;
-    background-color: #fff;
+    min-height: 550px;
+    background-color: #dcdcdc;
 }
 
 .mobile-learning .box {
@@ -521,7 +527,7 @@ button {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 70px;
+    max-height: 70px;
     margin: 10px;
     padding: 25px;
     background-color: #dcdcdc;
