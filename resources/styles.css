@@ -456,7 +456,7 @@ footer a:hover {
 
 
               /*ALL MOBILE PORTRAIT*/
-@media screen and (max-width: 780px), (orientation: portrait) {
+@media screen and (max-width: 720px) and (orientation: portrait) {
     
 
 html {
