@@ -275,6 +275,7 @@ span {
 }
 
 .rightbox .box a {
+    font-weight: 700;
     color: #76323f;
     transition: color 0.2s linear;
 }
@@ -555,10 +556,12 @@ button {
 }
 
 .mobile-practice p {
-    padding: 16px 0px 16px 16px;
+    padding: 0px 0px 16px 16px;
 }
 
 .mobile-practice a {
+    font-weight: 700;
+    font-size: 18px;
     padding: 16px 0px 0px 16px;
 }
 
@@ -584,7 +587,7 @@ button {
     min-width: 100%;
     min-height: 650px;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: #d7cec7;
 }
 
 .mobile-learning h1 {
@@ -604,7 +607,7 @@ button {
     min-height: 650px;
     padding: 0px 10px;
     min-width: 100%;
-    background-color: #f4f4f4;
+    background-color: #d7cec7;
 }
 
 .mobile-learning .box {
@@ -613,6 +616,10 @@ button {
     margin: 8px;
     padding: 25px;
     background-color: #76323f;
+}
+
+#campus, #orientation {
+    border-bottom: #e9e7e7 solid 1px;
 }
 
               /*MOBILE THESIS SECTION*/
@@ -627,7 +634,7 @@ button {
 .mobile-thesis {
     display: flex;
     flex-direction: column;
-    border-top: #d7cec7 solid 1px;
+    border-top:    #e9e7e7 solid 1px;
     min-height: 350px;
     min-width: 100%;
     text-align: center;
@@ -647,7 +654,7 @@ footer {
     height: 24px;
     text-align: left;
     font-size: 14px;
-    border-top: 1px solid #d7cec7;
+    border-top: 1px solid  #e9e7e7;
 }
 
 footer p {
