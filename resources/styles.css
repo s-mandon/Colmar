@@ -219,7 +219,6 @@ button:hover {
 }
 
 .leftbox img {
-    display: block;
     width: 100%;
 }
 
@@ -228,7 +227,6 @@ button:hover {
 }
 
 .leftbox p {
-    padding: 0px 0px;
     font-size: 16px;
     line-height: 20px;
 }
@@ -248,8 +246,8 @@ span {
     align-items: center;
     flex-direction: column;
     min-width: 40%;
-    height: 630px;
-    top: 12px;
+    height: 567px;
+    top: 15px;
     left: 12px;
 }
 
@@ -260,6 +258,11 @@ span {
     justify-content: space-between;
     align-items: center;
     padding: 16px;
+    transition: background-color 0.2s linear;
+}
+
+.rightbox .box:hover {
+    background-color: #d7cec7;
 }
 
 .rightbox .box img {
@@ -283,10 +286,6 @@ span {
 
 #orientation, #campus {
     border-bottom: 1px #d7cec7 solid;
-}
-
-#lecture {
-    background-color: #d7cec7;
 }
 
 .rightbox p, a {
@@ -327,7 +326,7 @@ span {
     height: 300px;
     background-color: #fff;
     flex-direction: column;
-    margin: 16px;
+    margin: 0px 16px 16px 16px;
 }
 
 .box .text {
@@ -355,7 +354,7 @@ font-size: 16px;
 }
 
 .thesis h1 {
-    padding: 32px 0px;
+    padding: 32px 0px 0px 0px;
     text-align: center;
 }
 
@@ -369,20 +368,16 @@ font-size: 16px;
     line-height: 20px;
 }
 
-#now-then {
-    background-color: #d7cec7;
-}
-
 .thesis-right {
     position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    border-left: #d7cec7 1px solid;
     min-width: 40%;
-    top: 12px;
+    top: 15px;
     left: 12px;
+    height: 376px;
 }
 
 .thesis-right .box {
@@ -392,6 +387,12 @@ font-size: 16px;
     justify-content: space-between;
     align-items: center;
     padding: 16px;
+    transition: background-color 0.2s linear;
+}
+
+.thesis-right .box:hover {
+    background-color: #d7cec7;
+    cursor: pointer;
 }
 
 .thesis-right .box img {
