@@ -462,7 +462,7 @@ footer a:hover {
 
 
               /*ALL MOBILE PORTRAIT*/
-@media screen and (max-width: 720px) and (orientation: portrait) {
+@media screen and (max-width: 780px) and (orientation: portrait) {
     
 
 html {
@@ -669,15 +669,11 @@ button {
 
 /*MOBILE FOOTER*/
 
-#terms {
+.social {
     display: none;
 }
 footer p {
     display: flex;
     padding: 16px 24px;
     text-align: left;
-}
-
-footer .fab {
-    display: none;
 }
