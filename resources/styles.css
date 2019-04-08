@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 600;
     color: #423229;
 }
@@ -69,8 +69,8 @@ a:hover {
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+    max-width: 100%;
+    margin: 0px 24px;
 }
 
 
@@ -142,13 +142,13 @@ nav li:nth-last-child(4n + 1) {
     background-color: #d7cec7;
     display: flex;
     justify-content: space-between;
-    height: 550px;
+    height: 700px;
 }
 
 .banner {
     position: relative;
     align-items: center;
-    height: 550px;
+    height: 700px;
     background-color: #d7cec7;
     margin: 0 auto;
 }
@@ -172,7 +172,7 @@ nav li:nth-last-child(4n + 1) {
     flex-direction: column;
     padding: 32px 12px 32px 10px;
     width: 40%;
-    height: 550px;
+    height: 700px;
 }
 
 .rightside h1, h2 {
@@ -186,7 +186,7 @@ button {
     color: #f4f4f4;
     margin: 50px 0px;
     padding: 15px 15px;
-    width: 100%;
+    width: 90%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -215,7 +215,7 @@ button:hover {
     position: relative;
     display: block;
     justify-content: space-between;
-    height: 650px;
+    height: 800px;
 }
 
 .leftbox {
@@ -251,8 +251,7 @@ span {
     align-items: center;
     flex-direction: column;
     min-width: 40%;
-    height: 567px;
-    top: 15px;
+    height: 800px;
     left: 12px;
 }
 
@@ -264,6 +263,7 @@ span {
     align-items: center;
     padding: 16px;
     transition: background-color 0.2s linear;
+    top: 15px;
 }
 
 .rightbox .box:hover {
@@ -308,6 +308,7 @@ span {
     justify-content: center;
     align-content: center;
     background-color: #d7cec7;
+    margin: 0px 72px;
 }
 
 .start-learning {
@@ -327,8 +328,8 @@ span {
 
 .start-learning .box {
     display: flex;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
     background-color: #d7cec7;
     flex-direction: column;
     margin: 0px 16px 32px 16px;
@@ -367,7 +368,7 @@ font-size: 16px;
     position: relative;
     display: block;
     justify-content: space-between;
-    height: 700px;
+    height: auto;
 }
 
 .thesis h1 {
@@ -381,7 +382,7 @@ font-size: 16px;
 }
 
 .thesis p {
-    padding: 10px 0px;
+    padding: 10px 0px 32px 0px;
     font-size: 16px;
     line-height: 20px;
 }
@@ -395,7 +396,7 @@ font-size: 16px;
     min-width: 40%;
     top: 15px;
     left: 12px;
-    height: 376px;
+    height: 450px;
 }
 
 .thesis-right .box {
@@ -435,6 +436,11 @@ footer p {
     text-align: left;
 }
 
+footer .fab {
+padding: 0px 15px 0px 5px;
+}
+
+
 footer a {
  display: inline; 
  text-decoration: none;
@@ -442,7 +448,7 @@ footer a {
  transition: color 0.2s linear;
 }
 
-.terms {
+.social {
     padding: 16px 24px 0px 0px;
 }
 
@@ -470,7 +476,7 @@ html {
     align-content: center;
 }
 
-#desktop, .desk-nav, .logo, .start-learning, .banner, .practice {
+#desktop, .desk-nav, .logo {
     display: none;
 }
 
@@ -653,6 +659,7 @@ button {
     min-width: 100%;
     text-align: center;
     background-color: #f4f4f4;
+    border-bottom: #e9e7e7 solid 1px;
 }
 
 .mobile-thesis h1 {
@@ -662,19 +669,15 @@ button {
 
 /*MOBILE FOOTER*/
 
-.terms {
+#terms {
     display: none;
 }
-
-footer {
-    height: 24px;
-    text-align: left;
-    font-size: 14px;
-    border-top: 1px solid  #e9e7e7;
-}
-
 footer p {
-    padding: 16px;
-    margin-top: 24px;
+    display: flex;
+    padding: 16px 24px;
+    text-align: left;
 }
+
+footer .fab {
+    display: none;
 }
